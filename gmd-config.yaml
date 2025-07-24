@@ -1,0 +1,22 @@
+outputs:
+  # First ouput file
+  main_docs.md:
+    - base_dir: "."
+      include:
+        - "*.go"  # include all Go files
+      exclude:
+        - "test_*.go" # Exclude test files
+      exclude_dirs:
+        - "gmd_ouput"
+        - "documenter"
+      section_heading: "Source Code"
+      description: "This section contains source Go files and documentation Markdown"
+
+  # Second ouput file
+  subdir_docs.md:
+    - base_dir: "./documenter"
+      include:
+        - "*.go"  
+      exclude: []
+      section_heading: "documentor Go files"
+      description: "This section contains go files for the documentor module"
