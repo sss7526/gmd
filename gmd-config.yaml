@@ -13,7 +13,7 @@ outputs:
       description: "This section contains source Go files and documentation Markdown"
 
   # Second ouput file
-  subdir_docs.md:
+  documenter.md:
     - base_dir: "./documenter"
       include:
         - "*.go"  
