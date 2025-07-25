@@ -1,6 +1,9 @@
-# gmd: Generate Markdown Documentation 📝
+# Generate Markdown Documentation 📝
 
-`gmd` is a powerful, customizable command-line tool for generating Markdown documentation automatically from your project's source files. With support for flexible YAML-based configuration, you can define which files to include, exclude, and organize your documentation with headings, descriptions, and more.
+`gmd` is a customizable command-line tool for generating Markdown documentation automatically from your project's source files. With support for flexible YAML-based configuration, you can define which files to include, exclude, and organize your documentation with headings, descriptions, and more.
+
+Not indended to replace any language specific documentation generation toolchain. Suggested use case is to generate custom markdown code snippets for your project files to share with your AI code assistant, blog post, etc.
+
 
 ---
 
