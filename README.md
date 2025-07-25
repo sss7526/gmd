@@ -34,6 +34,12 @@ Use the `go install` command to install the latest version of `gmd` directly fro
 go install github.com/sss7526/gmd@latest
 ```
 
+### **Step 3: Ensure $HOME/go/bin is in your $PATH
+
+```bash
+export PATH=${PATH}:$HOME/go/bin
+```
+
 
 ## 🛠️ Usage
 
