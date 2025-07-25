@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
-	"gmd/documenter"
+	"github.com/sss7526/gmd/documenter"
 )
 
 func main() {

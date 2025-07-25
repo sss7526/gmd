@@ -1,4 +1,4 @@
-module gmd
+module github.com/sss7526/gmd
 
 go 1.24.5
 
