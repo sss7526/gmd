@@ -4,6 +4,7 @@ outputs:
     - base_dir: "."
       include:
         - "*.go"  # include all Go files
+        - "tree.txt"
       exclude:
         - "test_*.go" # Exclude test files
       exclude_dirs:

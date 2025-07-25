@@ -145,3 +145,20 @@ Examples:
 }
 ```
 
+### File: `tree.txt`
+```plaintext
+.
+├── documenter
+│   ├── config.go
+│   └── file_processor.go
+├── gmd-config.yaml
+├── go.mod
+├── go.sum
+├── LICENSE
+├── main.go
+└── README.md
+
+2 directories, 8 files
+
+```
+

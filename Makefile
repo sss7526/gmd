@@ -306,7 +306,7 @@ tree:
 	@echo "Printing project structure to treefile"; \
 	# rm tree.txt; \
 	# @echo "$(shell basename $(PWD))"
-	tree -n --dirsfirst -I "Makefile|tree.txt" -o tree.txt
+	tree -n --dirsfirst -I "Makefile|gmd_ouput|tree.txt" -o tree.txt
 
 clean:
 	rm $(LOCAL_BIN)$(MODULE_NAME)
